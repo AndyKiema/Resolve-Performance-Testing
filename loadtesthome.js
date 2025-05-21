@@ -4,11 +4,11 @@ export const options={ //This object defines the stages of the load test
     stages:[ //stages: An array of objects that defines the load pattern over time.
         {
             duration:'10s', //For the first 10 seconds, 50 VUs will be active.
-            target: 50
+            target: 20
         },
         {
             duration: '20s', //For the next 20 seconds, 50 VUs will continue to be active
-            target: 50
+            target: 20
         },
         {
             duration: '10s',  //For the next 10 seconds, no VUs be active
