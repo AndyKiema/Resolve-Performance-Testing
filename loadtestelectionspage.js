@@ -10,7 +10,7 @@ export const options={
             target:20
         },
         {
-            target:'10s',
+            duration:'10s',
             target:0
         }
     ]
